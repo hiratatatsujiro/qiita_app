@@ -1,6 +1,6 @@
 class ProductionsController < ApplicationController
   def index
-    @productions = Production.all
+    @productions_name_price = Production.pluck(:name, :price).to_h
   end
 
   def new
