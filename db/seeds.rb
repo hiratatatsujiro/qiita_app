@@ -7,3 +7,28 @@
     condition: "good"
   )
 end
+
+Hunter.create(
+  [
+    {
+      name: 'ゴン',
+      type: '強化系'
+    },
+    {
+      name: 'キルア',
+      type: '変化系'
+    },
+    {
+      name: 'ポックル',
+      type: '放出系'
+    },
+    {
+      name: 'ヒソカ',
+      type: '変化系'
+    },
+    {
+      name: 'モタリケ',
+      type: 'リスキーダイス系'
+    }
+  ]
+ )
