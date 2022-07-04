@@ -1,0 +1,9 @@
+<div class="test_index">
+  <div class="test_list">
+    <div class="test_name">
+      <% @hunters.each do |hunter| %>
+        <p>名前：<%= hunter.name %>(<%= hunter.fight_type %>)</p>  
+      <% end %>
+    </div>
+  </div>
+</div>
