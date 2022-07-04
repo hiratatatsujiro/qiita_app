@@ -8,27 +8,27 @@
   )
 end
 
-Hunter.create!(
+Book.create!(
   [
     {
-      name: 'ゴン',
-      fight_type: '強化系'
+      name: 'hunter*hunter',
+      price: 700
     },
     {
-      name: 'キルア',
-      fight_type: '変化系'
+      name: 'SLAM DANK',
+      price: 600
     },
     {
-      name: 'ポックル',
-      fight_type: '放出系'
+      name: 'いちご100%',
+      price: 100
     },
     {
-      name: 'ヒソカ',
-      fight_type: '変化系'
+      name: 'るろうに剣心',
+      price: 2000
     },
     {
-      name: 'モタリケ',
-      fight_type: 'リスキーダイス系'
+      name: '世紀末リーダー伝たけし',
+      price: 50000
     }
   ]
  )
