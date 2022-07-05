@@ -2,7 +2,8 @@
   <div class="test_list">
     <div class="test_name">
       <% @books.each do |book| %>
-        <p>名前：<%= book.name %>(<%= book.price %>)</p>  
+        <% break if book.name == "るろうに剣心" %>
+        <p>名前：<%= book.name %>(<%= book.price %>円)</p>  
       <% end %>
     </div>
   </div>
