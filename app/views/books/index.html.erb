@@ -1,6 +1,7 @@
 <div class="test_index">
   <% @books.each do |book| %>
     <% next if book.title == "SLAM DANK" %> 
+    <% break if book.title == "るろうに剣心" %> 
     <p>タイトル：<%= book.title %> <%= book.price %>円</p>  
   <% end %>
 </div>
