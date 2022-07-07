@@ -11,23 +11,23 @@ end
 Book.create!(
   [
     {
-      name: 'hunter*hunter',
+      title: 'hunter*hunter',
       price: 700
     },
     {
-      name: 'SLAM DANK',
+      title: 'SLAM DANK',
       price: 600
     },
     {
-      name: 'いちご100%',
+      title: 'いちご100%',
       price: 100
     },
     {
-      name: 'るろうに剣心',
+      title: 'るろうに剣心',
       price: 2000
     },
     {
-      name: '世紀末リーダー伝たけし',
+      title: '世紀末リーダー伝たけし',
       price: 50000
     }
   ]

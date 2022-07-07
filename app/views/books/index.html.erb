@@ -1,10 +1,6 @@
 <div class="test_index">
-  <div class="test_list">
-    <div class="test_name">
-      <% @books.each do |book| %>
-        <% break if book.name == "るろうに剣心" %>
-        <p>名前：<%= book.name %>(<%= book.price %>円)</p>  
-      <% end %>
-    </div>
-  </div>
+  <% @books.each do |book| %>
+    <% next if book.title == "SLAM DANK" %> 
+    <p>タイトル：<%= book.title %> <%= book.price %>円</p>  
+  <% end %>
 </div>
