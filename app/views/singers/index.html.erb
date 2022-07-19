@@ -1,0 +1,11 @@
+<%= link_to "登録画面へ", new_singer_path%>
+
+<div class="test_index">
+  <% @singers.each do |singer| %>
+    <div class="singer">
+      歌手名：<%= singer.name %>  好きな曲：<%= singer.famous_song %>
+    <div class="song_name">
+  <% end %>
+</div>
+
+

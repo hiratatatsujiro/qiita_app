@@ -1,0 +1,16 @@
+<div class="qiita_index">
+  <h3>入力フォーム</h3>  
+  <div class="qiita_form">
+    <%= form_with model: @singer, url: singers_path, local: true do |f| %>
+    <div class="field">
+    <%= f.label :name, "歌手名"%><br>
+    <%= f.text_field :name, place_holder: "歌手名を入力してください", class: "name_song_form" %>
+    </div>
+    <div class="field">
+    <%= f.label :singers_path, "好きな曲"%><br>
+    <%= f.text_field :famous_song, place_holder: "好きな曲を入力してください", class: "name_song_form" %>
+    </div> 
+    <%= f.submit "送信", class: "btn"%>
+    <% end %>
+  </div>
+</div>
