@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  root to: "productions#index"
-  resources :productions, only: :index
-  resources :books, only: :index
+  root to: "singers#index"
+  resources :singers, only: [:index, :new, :create]
 end
