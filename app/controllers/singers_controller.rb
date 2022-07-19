@@ -8,7 +8,6 @@ class SingersController < ApplicationController
   end
 
   def create
-    begin
       @singer = Singer.new(singer_params)
       raise SyntaxError, "invalid syntax"
       @singer.save
@@ -16,7 +15,6 @@ class SingersController < ApplicationController
     rescue SyntaxError => e
       Rails.logger.error("エラーの種類：#{e.class} エラーメッセージ：#{e.message}")
       render "new"
-    end
   end
 
   private
