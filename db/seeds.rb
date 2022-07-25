@@ -32,3 +32,37 @@ Book.create!(
     }
   ]
  )
+
+ Country.create!(
+  [
+    {
+      name: '日本',
+      capital: '東京',
+      food: '寿司',
+      language: "日本語",
+      sports: "相撲"
+    },
+    {
+      name: 'アメリカ',
+      capital: 'ワシントン',
+      food: 'ハンバーガー',
+      language: "英語",
+      sports: "野球"
+    },
+    {
+      name: '秦',
+      capital: '咸陽(かんよう)',
+      food: '北京ダッグ',
+      language: "中国語",
+      sports: "戦い"
+    },
+    {
+      name: 'ジュラ・テンペスト連邦国',
+      capital: 'リムル',
+      food: '肉',
+      language: "日本語",
+      sports: "戦い"  
+    }
+   ]
+  )
+  
