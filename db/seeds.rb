@@ -65,4 +65,34 @@ Book.create!(
     }
    ]
   )
+
+  Drama.create!(
+    [
+      {
+        title: '世界の中心で愛をさけぶ',
+        actor: '山田孝之 綾瀬はるか',
+        period: 2004
+      },
+      {
+        title: '男女７人夏物語',
+        actor: '明石家さんま 大竹しのぶ',
+        period: 1986
+      },
+      {
+        title: 'ロングラブレター 〜漂流教室〜',
+        actor: '山田孝之 水川あさみ',
+        period: 2002
+      },
+      {
+        title: 'HERO',
+        actor: '木村拓哉 松たか子',
+        period: 2001
+      },
+      {
+        title: '北の国から',
+        actor: '田中邦衛 吉岡秀隆',
+        period: 1981
+      }
+     ]
+    )
   
